@@ -1,0 +1,15 @@
+float time = float.Parse(Console.ReadLine());
+            float price = float.Parse(Console.ReadLine());
+            float ans;
+            ans = (price * ((time- 1)*(time- 1)));
+            Console.WriteLine(ans);
+
+            if (time < 0)
+            {
+                Console.WriteLine("invalid mouse position");
+            }
+            else
+            {
+                Console.WriteLine("invalid mode");
+            }
+            Console.ReadLine();
